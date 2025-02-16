@@ -1,0 +1,27 @@
+linters:
+  enable:
+    - bidichk # unicode chars
+    - bodyclose # http body close
+    - copyloopvar # vars copied in loop
+    - cyclop # package cyclomatic complexity
+    - decorder # var declaration order
+    - dupl # code clone detection
+    - err113 # check err handler
+    - errname # errors naming
+    - funlen # too long funcs
+    - godot # end of comment
+    - misspell # correct english :)
+    - nestif # many if statements
+    - perfsprint # better sprintf func
+    - predeclared # go predeclared indentifiers
+    - revive # ?
+    - sloglint # logs
+    - usestdlibvars # standart Go vars
+    - whitespace # unneseccary newlines
+  disable:
+    - errcheck
+  # disable linter for tests
+
+run:
+  timeout: 1m
+  tests: false

@@ -1,0 +1,4 @@
+DROP TABLE Inventory;
+DROP TABLE Users;
+DROP TABLE Items;
+DROP TABLE Transfers;
