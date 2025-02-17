@@ -53,7 +53,7 @@
 1. **Клонирование репозитория:**
 
     ```bash
-    git clone https://github.com/avito/merch-store.git
+    git clone https://github.com/myacey/avito-shop.git
     cd avito-store
     ```
 
@@ -127,29 +127,29 @@
 ## Тестирование
 
 - **Юнит-тесты:**
-    ```sh
+    ```bash
     make unit_tests
     ```
     > для просмотра покрытия можно открыть `./tests/coverage.html`
 
 - **Интеграционные тесты:**
-    ```sh
+    ```bash
     make integration_tests
     ```
 
 - **E2E-тесты:**
-    ```sh
-    POSTGRES_TEST_DB_URL=<url> REDIS_TEST_DB_URL=<url> STATUS=testing sh run_e2e.sh
+    ```bash
+    POSTGRES_TEST_DB_URL=<url> REDIS_TEST_DB_URL=<url> STATUS=testing bash run_e2e.bash
     ```
     > Для подсказки: `make e2e`
 
 - **Нагрузочные тесты:**
-    ```sh
+    ```bash
     make load_test
     ```
 
 - **Линтеры:**
-    ```sh
+    ```bash
     make lint
     ```
 
