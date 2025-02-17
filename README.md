@@ -54,7 +54,7 @@
 
     ```bash
     git clone https://github.com/myacey/avito-shop.git
-    cd avito-store
+    cd avito-shop
     ```
 
 2. **Запуск сервиса:**
