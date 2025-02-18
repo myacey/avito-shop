@@ -88,13 +88,6 @@
 - **GET /api/buy/:item**
 
     **Описание**: Покупка мерча за монеты.
-
-    **Параметры запроса:**
-    ```json
-    {
-        "item_name": "t-shirt"
-    }
-    ```
     
     `Authorization: Bearer <JWT Token>`
 
